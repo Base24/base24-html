@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/Base24/base24-html.svg?style=for-the-badge)](/LICENSE.md)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/Base24/base24-html.svg?style=for-the-badge)](../../commits/master)
 [![Last commit](https://img.shields.io/github/last-commit/Base24/base24-html.svg?style=for-the-badge)](../../commits/master)
+[builder-go]: https://github.com/tinted-theming/base16-builder-go
 
 # base24-html
 
@@ -16,21 +17,9 @@ Base 24 themes for html
 
 
 ## Build it yourself
-### Grab base24-builder-python-portable
-
-1. Run
-```python
-./dropin.py
-```
-2. Run
-```python
-./base24.py update
-```
-3. Run
-```python
-./base24.py build
-```
-
+The repo is updated every week with the latest Base24 schemes, but if
+you'd like to build it yourself: Grab [builder-go] and run
+`path/to/builder-go` binary in your local clone of base24-html.
 
 ## Changelog
 See the [CHANGELOG](/CHANGELOG.md) for more information.
