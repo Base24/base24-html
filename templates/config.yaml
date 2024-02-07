@@ -1,3 +1,4 @@
 preview:
     extension: .html
-    output: previews
+    output: output/previews
+    supported-systems: [base24]
